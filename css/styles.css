@@ -372,3 +372,24 @@ nav .hamburger.active .bar {
         height: 300px;
     }
 }
+
+/* Media Screen */
+
+@media screen and (max-width: 767px) {
+    .left span {
+        font-size: 14px;
+    }
+    .left h1 {
+        font-size: 3rem;
+    }
+    .right .profile img {
+        width: 375px;
+        height: 375px;
+    }
+    
+    .social {
+        display: flex; /* Add this line to make the social class visible */
+        align-items: center;
+        margin-top: 50px;
+    }
+}
