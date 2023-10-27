@@ -393,3 +393,33 @@ nav .hamburger.active .bar {
         margin-top: 50px;
     }
 }
+
+/* Existing styles */
+
+/* Footer */
+footer {
+    background: var(--bg-color);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: var(--text-color);
+}
+
+/* Media Screen (Add styles for responsiveness if needed) */
+
+/* Add responsive styles for the footer and social links if necessary */
